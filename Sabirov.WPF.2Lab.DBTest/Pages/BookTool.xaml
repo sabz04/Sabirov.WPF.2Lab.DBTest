@@ -1,0 +1,24 @@
+﻿<Window x:Class="Sabirov.WPF._2Lab.DBTest.Pages.BookTool"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sabirov.WPF._2Lab.DBTest.Pages"
+        mc:Ignorable="d"
+        Title="BookTool" Height="450" Width="371">
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+            <TextBlock>Название</TextBlock>
+            <TextBox x:Name="NameTB"></TextBox>
+            <TextBlock>Описание</TextBlock>
+            <TextBox x:Name="DescTB" MinHeight="100" TextWrapping="Wrap"></TextBox>
+            <Button Width="200px" Click="Button_Click" >
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources> Сохранить</Button>
+
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sabirov.WPF.2Lab.DBTest", "Sabirov.WPF.2Lab.DBTest\Sabirov.WPF.2Lab.DBTest.csproj", "{4EF15590-A0AC-4198-8150-4378512D2D2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBTestLibrary", "DBTestLibrary\DBTestLibrary.csproj", "{91B72C79-87FA-4BDD-9B1B-5425F88D3FFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EF15590-A0AC-4198-8150-4378512D2D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF15590-A0AC-4198-8150-4378512D2D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF15590-A0AC-4198-8150-4378512D2D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF15590-A0AC-4198-8150-4378512D2D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91B72C79-87FA-4BDD-9B1B-5425F88D3FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B72C79-87FA-4BDD-9B1B-5425F88D3FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B72C79-87FA-4BDD-9B1B-5425F88D3FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B72C79-87FA-4BDD-9B1B-5425F88D3FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46E5327F-6FB3-478E-8BA5-A55BF55C11C8}
+	EndGlobalSection
+EndGlobal
